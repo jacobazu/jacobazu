@@ -18,5 +18,5 @@ Here are some ideas to get you started:
 - 👯 I’m looking to collaborate on anything! I am in love with any kind of quantitative work
 - 🤔 I’m looking for help with find connections that share my views.
 - 💬 Ask me about anything really. I am open to converse.
-- 📫 Reach me on email: jacobqazizada12@gmail.com
+- 📫 Reach me on email: jacobqazizada12@gmail.com or in Linkedin https://www.linkedin.com/in/jacob-qazizada
 - ⚡ Fun fact: I named the GitHub profile after myself and my dear cat.
