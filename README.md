@@ -1,6 +1,7 @@
 ## Hi there
 
 - I'm working on the dashboards you can find at [jacobazu.github.io](https://jacobazu.github.io).
+- During my studies I was a student quantitative analyst at SBK Nordic, forecasting power production from wind turbines.
 - I'm learning how the Danish power system and market work.
 - I'm happy to work together on anything, especially quantitative work.
 - I'd like to meet people who share my interests.
