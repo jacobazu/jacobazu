@@ -1,17 +1,28 @@
 ## Jacob Qazizada
 
-I build forecasts and trading tests for the Danish power market (DK1) that run by themselves every day. Each forecast is saved before the noon auction, never changed, and scored once the real prices are out. Every page is at [jacobazu.github.io](https://jacobazu.github.io).
+I work on forecasting, econometrics and risk, mostly in R and Python. I like taking a model the whole way: building the data, estimating it, testing it honestly out of sample, and then running it where anyone can check the record.
 
-| Project | What runs each day | Result so far |
-|---|---|---|
-| [dk1-price-forecasting](https://github.com/jacobazu/dk1-price-forecasting) | Tomorrow's hourly day-ahead price, with ranges, in R | Backtest error half that of last week's prices (17.0 vs 34.2 €/MWh) |
-| [dk1-battery-trade](https://github.com/jacobazu/dk1-battery-trade) | A 1 MW battery's plan from the price forecast, and how to split it between trading and Energinet's reserves | Splitting each hour beats one market a day by 112 € a day in the backtest |
-| [dk1-imbalance-forecasting](https://github.com/jacobazu/dk1-imbalance-forecasting) | Will Energinet regulate up or down in the next quarter-hours; a map of imbalance prices across Europe | 4.9% lower log loss than the benchmark for the next hour |
-| [dk1-renewables-forecasting](https://github.com/jacobazu/dk1-renewables-forecasting) | Tomorrow's DK1 offshore wind, before the auction, in Python | Scored against Energinet's own forecast |
-| [dk1-model-comparison](https://github.com/jacobazu/dk1-model-comparison) | Pretrained models and neural networks against my own, on the same 377 days | [Results](https://jacobazu.github.io/models/) |
+### Running every day: the Danish power market
 
-The rules for each test are committed before the results, and what failed stays on the pages.
+Forecasts saved before the noon auction, never changed afterwards, and scored when the real prices are out. All pages are at [jacobazu.github.io](https://jacobazu.github.io).
 
-Before this I was a student quantitative analyst at SBK Nordic, forecasting wind power production.
+| Project | What it does |
+|---|---|
+| [dk1-price-forecasting](https://github.com/jacobazu/dk1-price-forecasting) | Tomorrow's hourly prices with their uncertainty. Backtest error half that of last week's prices |
+| [dk1-battery-trade](https://github.com/jacobazu/dk1-battery-trade) | A battery planned on the forecast, its risk, and whether it earns more selling reserves to the grid operator |
+| [dk1-imbalance-forecasting](https://github.com/jacobazu/dk1-imbalance-forecasting) | Which way the grid is out of balance in the next quarter-hours, plus imbalance prices across Europe |
+| [dk1-renewables-forecasting](https://github.com/jacobazu/dk1-renewables-forecasting) | Offshore wind production from public weather forecasts, scored against the grid operator's own |
+| [dk1-model-comparison](https://github.com/jacobazu/dk1-model-comparison) | Neural networks and pretrained models (Chronos-2, TabPFN, Timestral) against my own, on 377 days |
+
+### Earlier work
+
+- **Crude oil (thesis):** which predictors matter for oil returns and volatility, and when. Lasso, elastic net and boosting chose the variables again at every step of a recursive out-of-sample forecast, with Value-at-Risk on top.
+- **Hedging:** variance-optimal hedging by least-squares Monte Carlo, with GARCH(1,1) and Markov-switching volatility.
+- **Electricity demand:** how households respond to price, from hourly data on 217 households over two years, with fixed-effects IV and Arellano-Bond GMM.
+- **Maritime piracy:** count-data panel models.
+- **SBK Nordic, 2023 to 2026:** forecast a wind farm's production and analysed electricity losses, as a student quantitative analyst.
+- **Teaching:** teaching assistant in mathematics at Aalborg University, and a maths tutor since 2020.
+
+R is my main language, Python my second, and I know some Julia.
 
 Reach me at jacobqazizada12@gmail.com or on [LinkedIn](https://www.linkedin.com/in/jacob-qazizada).
