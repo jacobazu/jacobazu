@@ -12,7 +12,6 @@ Forecasts saved before the noon auction, never changed afterwards, and scored wh
 | [dk1-battery-trade](https://github.com/jacobazu/dk1-battery-trade) | A battery planned on the forecast, its risk, and whether it earns more selling reserves to the grid operator |
 | [dk1-imbalance-forecasting](https://github.com/jacobazu/dk1-imbalance-forecasting) | Which way the grid is out of balance in the next quarter-hours, plus imbalance prices across Europe |
 | [dk1-renewables-forecasting](https://github.com/jacobazu/dk1-renewables-forecasting) | Offshore wind production from public weather forecasts, scored against the grid operator's own |
-| [dk1-flow-forecasting](https://github.com/jacobazu/dk1-flow-forecasting) | Tomorrow's flow on each of DK1's six cables, built on the price and wind forecasts. Beats yesterday's flow on the German cable
 | [dk1-model-comparison](https://github.com/jacobazu/dk1-model-comparison) | Neural networks and pretrained models (Chronos-2, TabPFN, Timestral) against my own, on 377 days |
 
 ### Earlier work
